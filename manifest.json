@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+     "name": "AI Cloth make",
+    "description": "AI Cloth explore ",
+    "version": "1.0",
+   
+    "host_permissions": [
+     
+    "http://localhost:3000/*",
+     "http://localhost:3000/api/*"
+  ],
+    "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+    "background":[{
+      "service_worker": "background.js"
+      }],
+      
+        "action": {
+            "default_icon": "icon.png",
+            "default_popup": "mynotes.html"
+        },
+    
+       "permissions": ["tts","storage"]
+
+}
